@@ -1,0 +1,61 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quote-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  padding: 2rem;
+  border: 3px;
+  border-radius: 4px;
+  padding: 40px 50px;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 300px;
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.620);
+  transition:background-color 0.3s;
+}
+
+#text {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 700;
+  margin:3px;
+  color: aliceblue;
+}
+
+#author {
+  font-size: 1.2rem;
+  padding-left: 60%;
+  margin: 3px;
+  color: aliceblue;
+}
+
+#new-quote {
+  padding: 0.6em 1.2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: inherit;
+  color: aliceblue;
+}
+
